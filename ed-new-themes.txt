@@ -1,0 +1,104 @@
+['desire', 'mind', 'sense', 'feelings', 'knowing', 'fear', 'emotions', 'feeling', 'surely', 'forever', 'realize', 'emotion']
+['sky', 'clouds', 'beneath', 'horizon', 'shadows', 'sun', 'invisible', 'moon', 'sunlight', 'shining', 'shadow', 'skies']
+['signs', 'names', 'name', 'they', 'that', 'as', 'them', 'same', 'many', 'where', 'one', 'could']
+['relatively', 'low', 'small', 'weak', 'long', 'extremely', 'strong', 'generally', 'less', 'high', 'comparatively', 'large']
+['memory', 'device', 'internal', 'external', 'devices', 'processing', 'optical', 'sensor', 'function', 'frequency', 'element', 'processor']
+['desire', 'dying', 'mind', 'turn', 'reason', 'death', 'never', 'alive', 'still', 'when', 'them', 'someone']
+['sky', 'horizon', 'clouds', 'moon', 'shadow', 'sun', 'shadows', 'skies', 'beneath', 'shining', 'earth', 'invisible']
+['face', 'look', 'like', 'ones', 'smile', 'tell', 'see', 'know', 'one', 'seeing', 'but', 'what']
+['memory', 'signs', 'that', 'same', 'having', 'as', 'can', 'without', 'well', 'be', 'one', 'either']
+['desire', 'fear', 'life', 'ultimately', 'eventually', 'beyond', 'intention', 'themselves', 'trust', 'lose', 'minds', 'death']
+['sky', 'dark', 'shadows', 'sight', 'shining', 'shadow', 'moon', 'bright', 'invisible', 'face', 'lips', 'glowing']
+['names', 'same', 'one', 'each', 'separate', 'other', 'as', 'which', 'where', 'both', 'their', 'are']
+['eyes', 'dead', 'face', 'eye', 'hands', 'down', 'legs', 'head', 'lay', 'broken', 'man', 'slowly']
+['continuous', 'possible', 'necessary', 'sufficient', 'maintain', 'ability', 'regardless', 'means', 'simultaneously', 'individual', 'greater', 'depend']
+['signs', 'eyes', 'eye', 'heart', 'vision', 'falling', 'flashes', 'turn', 'down', 'broken', 'earth', 'turning']
+['list', 'share', 'account', 'rules', 'exact', 'following', 'letters', 'interesting', 'above', 'personal', 'search', 'interested']
+['steady', 'earth', 'vision', 'eyes', 'deep', 'turn', 'turning', 'slowly', 'breath', 'path', 'lay', 'falling']
+['hidden', 'eyes', 'eye', 'hide', 'inside', 'face', 'deep', 'hands', 'turn', 'heart', 'vision', 'broken']
+['relatively', 'strong', 'weak', 'clear', 'low', 'small', 'possibly', 'long', 'common', 'generally', 'hence', 'usually']
+['names', 'name', 'same', 'they', 'one', 'them', 'where', 'that', 'as', 'being', 'many', 'already']
+['dead', 'broken', 'brain', 'sleep', 'operation', 'connected', 'turning', 'turn', 'blood', 'mass', 'power', 'steady']
+['sky', 'bright', 'dark', 'shining', 'moon', 'pale', 'glowing', 'brightly', 'sight', 'glow', 'shadows', 'face']
+['hide', 'ones', 'there', 'face', 'look', 'like', 'one', 'where', 'so', 'all', 'way', 'still']
+['desire', 'trade', 'willing', 'intention', 'interest', 'exchange', 'ways', 'own', 'demands', 'certain', 'solely', 'traded']
+['signs', 'dead', 'turning', 'turn', 'broken', 'blood', 'steady', 'marked', 'bleeding', 'falling', 'fire', 'away']
+['thin', 'dark', 'thick', 'shadows', 'tiny', 'shadow', 'golden', 'faint', 'resemble', 'eye', 'surrounded', 'slightly']
+['sight', 'gaze', 'darkness', 'unseen', 'flesh', 'heaven', 'hearts', 'shadows', 'beneath', 'earthly', 'shadow', 'conceal']
+['same', 'which', 'one', 'as', 'while', 'changing', 'having', 'much', 'making', 'different', 'example', 'advantage']
+['dead', 'signs', 'broken', 'eyes', 'down', 'face', 'leaves', 'turning', 'man', 'falling', 'turn', 'away']
+['sky', 'shadows', 'shadow', 'beneath', 'clouds', 'sun', 'moon', 'invisible', 'blue', 'earth', 'shining', 'horizon']
+['same', 'even', 'that', 'different', 'those', 'ones', 'they', 'rather', 'given', 'them', 'all', 'so']
+['desire', 'trade', 'willing', 'intention', 'interest', 'exchange', 'ways', 'own', 'demands', 'certain', 'solely', 'traded']
+
+Cities and Sense
+Cities and Shadows
+Cities and Reason
+Long Cities
+Feeling Cities
+Cities and Clouds
+Cities and Interest
+Cities and the Sun
+Cities and the Horizon
+Nothing Cities
+Still Cities
+
+Cities and Trust
+Cities and Lips
+Cities and Others
+Internal Cities
+Separate Cities
+Cities and Smiles
+Cities and Exchange
+Cities and the Beyond
+Cities and the Heart
+Alive Cities
+Shining Cities
+
+Cities and Hands
+Cities and Rules
+Cities and Letters
+Broken Cities
+Exact Cities
+Cities and Flashes
+Cities and Connections
+Cities and the Face
+Cities and the Earth
+Falling Cities
+Personal Cities
+
+Cities and Blood
+Cities and Fire
+Cities and Advantage
+Necessary Cities
+Blue Cities
+Cities and Flesh
+Cities and Demands
+Cities and the Unseen
+Cities and the Faint
+Common Cities
+Bleeding Cities
+
+4 - Cities and Blood
+2 - Cities and Lips
+x - Cities and Letters
+1 - Long Cities
+2 - Separate Cities
+2 - Cities and Smiles
+4 - Cities and Demands
+2 - Cities and the Beyond
+4 - Cities and the Faint
+2 - Alive Cities
+2 - Shining Cities
+
+2 - Cities and Trust
+x - Cities and Rules
+1 - Cities and Reason
+2 - Internal Cities
+x - Blue Cities
+4 - Cities and Flesh
+2 - Cities and Exchange
+3 - Cities and the Face
+2 - Cities and the Heart
+4 - Common Cities
+3 - Personal Cities
