@@ -203,18 +203,3 @@ new_themes.close()
 #         output.append(word.text)
 #     output.append(word.whitespace_)
 # print(''.join(output))
-
-# tint with target
-# target_word = 'jealousy'
-# factor = 0.25
-#
-# output = []
-# for word in desire_doc:
-#     if word.is_alpha and word.pos_ in ('NOUN', 'ADJ'):
-#         new_word = random.choice(lookup.nearest((word.vector*(1-factor)) + (vec(target_word)*factor)))
-#         output.append(new_word)
-#     else:
-#         output.append(word.text)
-#     output.append(word.whitespace_)
-# print(''.join(output))
-

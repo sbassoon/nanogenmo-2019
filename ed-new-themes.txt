@@ -79,26 +79,26 @@ Cities and the Faint
 Common Cities
 Bleeding Cities
 
-4 - Cities and Blood
-2 - Cities and Lips
-x - Cities and Letters
-1 - Long Cities
-2 - Separate Cities
-2 - Cities and Smiles
-4 - Cities and Demands
-2 - Cities and the Beyond
-4 - Cities and the Faint
-2 - Alive Cities
-2 - Shining Cities
-
-2 - Cities and Trust
-x - Cities and Rules
-1 - Cities and Reason
-2 - Internal Cities
-x - Blue Cities
-4 - Cities and Flesh
-2 - Cities and Exchange
-3 - Cities and the Face
-2 - Cities and the Heart
-4 - Common Cities
-3 - Personal Cities
+======
+Cities and Blood
+Cities and Lips
+Cities and Letters
+Long Cities
+Separate Cities
+Cities and Smiles
+Cities and Demands
+Cities and the Beyond
+Cities and the Faint
+Alive Cities
+Shining Cities
+Cities and Trust
+Cities and Rules
+Cities and Reason
+Internal Cities
+Blue Cities
+Cities and Flesh
+Cities and Exchange
+Cities and the Face
+Cities and the Heart
+Common Cities
+Personal Cities

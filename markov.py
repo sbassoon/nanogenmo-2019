@@ -65,12 +65,14 @@ def markov_generate_from_lines_in_file(n, filehandle, count, level='char', max_g
 
 
 # Markovs
-for item in markov_generate_from_lines_in_file(3, open(names), 5, 'word'):
-    print(item)
-    print("")
+# for item in markov_generate_from_lines_in_file(3, open(names), 5, 'word'):
+#     print(item)
+#     print("")
+#
+# print("-------")
 
-print("-------")
-
-for item in markov_generate_from_lines_in_file(6, open(sky), 5, 'char', 1000):
+new_names = open("new-city-names-markov.txt",'w')
+for item in markov_generate_from_lines_in_file(2, open(cities), 50, 'char', 1000):
     print(item)
-    print("")
+    new_names.write(item + "\n")
+new_names.close()
