@@ -1,6 +1,7 @@
 import spacy
 import numpy as np
 import random
+import string_swap
 from paths import *
 from simpleneighbors import SimpleNeighbors
 
@@ -36,82 +37,14 @@ trading_text =  nlp(open(trading).read())
 narrative_text =  nlp(open(narrative).read())
 full_text = nlp(open(full).read())
 
-# tint with target
-target_word = 'blood'
-factor = 0.25
-
-output = []
-for word in eyes_text:
-    if word.is_alpha and word.pos_ in ('NOUN', 'ADJ'):
-        new_word = random.choice(lookup.nearest((word.vector*(1-factor)) + (vec(target_word)*factor)))
-        output.append(new_word)
-    else:
-        output.append(word.text)
-    output.append(word.whitespace_)
-quarter = ''.join(output)
-print(quarter)
-
-factor = 0.33
-
-output = []
-for word in eyes_text:
-    if word.is_alpha and word.pos_ in ('NOUN', 'ADJ'):
-        new_word = random.choice(lookup.nearest((word.vector*(1-factor)) + (vec(target_word)*factor)))
-        output.append(new_word)
-    else:
-        output.append(word.text)
-    output.append(word.whitespace_)
-third = ''.join(output)
-print(third)
-
-factor = 0.4
-
-output = []
-for word in eyes_text:
-    if word.is_alpha and word.pos_ in ('NOUN', 'ADJ'):
-        new_word = random.choice(lookup.nearest((word.vector*(1-factor)) + (vec(target_word)*factor)))
-        output.append(new_word)
-    else:
-        output.append(word.text)
-    output.append(word.whitespace_)
-point_four = ''.join(output)
-print(point_four)
-
-factor = 0.5
-
-output = []
-for word in eyes_text:
-    if word.is_alpha and word.pos_ in ('NOUN', 'ADJ'):
-        new_word = random.choice(lookup.nearest((word.vector*(1-factor)) + (vec(target_word)*factor)))
-        output.append(new_word)
-    else:
-        output.append(word.text)
-    output.append(word.whitespace_)
-half = ''.join(output)
-print(half)
-
-factor = 0.66
-
-output = []
-for word in eyes_text:
-    if word.is_alpha and word.pos_ in ('NOUN', 'ADJ'):
-        new_word = random.choice(lookup.nearest((word.vector*(1-factor)) + (vec(target_word)*factor)))
-        output.append(new_word)
-    else:
-        output.append(word.text)
-    output.append(word.whitespace_)
-point_six = ''.join(output)
-print(point_six)
-
-factor = 0.75
-
-output = []
-for word in eyes_text:
-    if word.is_alpha and word.pos_ in ('NOUN', 'ADJ'):
-        new_word = random.choice(lookup.nearest((word.vector*(1-factor)) + (vec(target_word)*factor)))
-        output.append(new_word)
-    else:
-        output.append(word.text)
-    output.append(word.whitespace_)
-three_quarters = ''.join(output)
-print(three_quarters)
+def vector_tint(target,source,factor):
+    output = []
+    for w in source:
+        if w.is_alpha and w.pos_ in ('NOUN', 'ADJ'):
+            new_word = random.choice(lookup.nearest((w.vector * (1 - factor)) + (vec(target) * factor)))
+            output.append(new_word)
+        else:
+            output.append(w.text)
+        output.append(w.whitespace_)
+    new_text = ''.join(output)
+    return(new_text)
