@@ -37,7 +37,7 @@ trading_text =  nlp(open(trading).read())
 narrative_text =  nlp(open(narrative).read())
 full_text = nlp(open(full).read())
 
-def vector_tint(target,source,factor):
+def vector_noun_adj_tint(target,source,factor):
     output = []
     for w in source:
         if w.is_alpha and w.pos_ in ('NOUN', 'ADJ'):
@@ -48,3 +48,15 @@ def vector_tint(target,source,factor):
         output.append(w.whitespace_)
     new_text = ''.join(output)
     return(new_text)
+
+def vector_verb_tint(target,source,factor):
+    output = []
+    for w in source:
+        if w.is_alpha and w.pos_ in ('VERB'):
+            new_word = random.choice(lookup.nearest((w.vector * (1 - factor)) + (vec(target) * factor)))
+            output.append(new_word)
+        else:
+            output.append(w.text)
+        output.append(w.whitespace_)
+    new_text = ''.join(output)
+    return (new_text)

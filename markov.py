@@ -54,6 +54,8 @@ def markov_generate_from_sequences(n, sequences, count, max_gen=100):
 
 
 def markov_generate_from_lines_in_file(n, filehandle, count, level='char', max_gen=100):
+    glue = ''
+    sequences = []
     if level == 'char':
         glue = ''
         sequences = [item.strip() for item in filehandle.readlines()]
@@ -71,8 +73,8 @@ def markov_generate_from_lines_in_file(n, filehandle, count, level='char', max_g
 #
 # print("-------")
 
-new_names = open("new-city-names-markov.txt",'w')
-for item in markov_generate_from_lines_in_file(2, open(cities), 50, 'char', 1000):
-    print(item)
-    new_names.write(item + "\n")
-new_names.close()
+# new_names = open("new-city-names-markov.txt",'w')
+# for item in markov_generate_from_lines_in_file(2, open(cities), 50, 'char', 1000):
+#     print(item)
+#     new_names.write(item + "\n")
+# new_names.close()
